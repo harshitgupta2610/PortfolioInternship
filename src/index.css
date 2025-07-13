@@ -39,7 +39,7 @@ body {
   display: block;
   box-shadow: 0 2px 16px 0 #0003;
   background: none;
-  background-image: url('C:\Users\pgupt\Desktop\projects\Portfolio\public\1.jpg');
+  background-image: url(/public/1.jpg);
   background-size: cover;
   background-position: center;
 }
