@@ -39,7 +39,7 @@ body {
   display: block;
   box-shadow: 0 2px 16px 0 #0003;
   background: none;
-  background-image: url(/public/1.jpg);
+  background-image: url(/1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -72,9 +72,9 @@ body {
 
 .social-links {
   display: flex;
-  justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .resume-btn {
@@ -105,9 +105,6 @@ body {
   fill: #ffffff;
 }
 
-.cta-section {
-  margin-top: 40px;
-}
 
 .cta-title {
   font-size: 24px;
@@ -359,4 +356,101 @@ img {
 
 .project-link:hover svg {
   fill: #fff;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+  }
+  .container {
+    padding: 20px 5px;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .sidebar {
+    position: static;
+    top: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 18px;
+    align-self: flex-start;
+    margin-left: 0;
+  }
+  .name, .title, .location, .tagline, .social-links, .resume-btn, .cta-section {
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
+  }
+  .name {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .title, .location, .tagline {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .cta-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .cta-btn {
+    font-size: 13px;
+    padding: 10px 18px;
+    margin-left: 0;
+  }
+  .content {
+    padding-left: 0;
+    width: 100%;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+  .skills-category h3 {
+    font-size: 16px;
+  }
+  .skills-tags {
+    gap: 6px;
+  }
+  .skill-tag {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  .experience-header, .education-header {
+    align-items: flex-start;
+  }
+  .project-image {
+    align-self: flex-start;
+    margin-right: 16px;
+    margin-left: 0;
+  }
+  .resume-btn {
+    width: auto;
+    min-width: 0;
+    max-width: 220px;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-left: 0;
+  }
+  
+  
 }

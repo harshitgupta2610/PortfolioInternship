@@ -7,9 +7,9 @@ const Experience = () => {
                     
                     <div class="experience-item">
                         <div class="experience-header">
-                            <div class="company-logo">
-                                <span class="logo-placeholder">S</span>
-                            </div>
+                        <div class="project-image">
+                <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHkv2aERJCnIw/company-logo_200_200/company-logo_200_200/0/1630576106602/smartinternz_logo?e=1755129600&v=beta&t=9PhkRrkAF9FftnXTjEFCbvmMAHIyUPutVYPyL4SOfug" alt="SmartInternz"/>
+            </div>
                             <div class="experience-details">
                                 <h3 class="job-title">Full Stack Web Developer (MERN)</h3>
                                 <p class="company-name">SmartInternz, Ghaziabad, India</p>
