@@ -25,7 +25,7 @@ const Experience = () => {
                             <li>Performed API testing using tools like Postman and ensured frontend-backend integration through structured RESTful architecture.</li>
                             <li>Develop and implement process reviews, online training content, and exercise assessments.</li>
                         </ul>
-                        <div class="job-skills">
+                        <div class="skills-tags">
                             <span class="skill-tag framework">HTML</span>
                             <span class="skill-tag framework">CSS</span>
                             <span class="skill-tag language">JavaScript</span>

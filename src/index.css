@@ -25,7 +25,7 @@ body {
 }
 
 .sidebar {
-  text-align: center;
+  text-align: left;
   position: sticky;
   top: 40px;
 }
@@ -34,7 +34,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 0 auto 30px;
+  margin: 0 left ;
   object-fit: cover;
   display: block;
   box-shadow: 0 2px 16px 0 #0003;
@@ -73,7 +73,7 @@ body {
 .social-links {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 10px;
 }
 
@@ -387,24 +387,32 @@ img {
     margin-right: auto;
   }
   .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 18px;
     align-self: flex-start;
     margin-left: 0;
+  }
+  
+  .name {
+    font-size: 40px;
+    margin-bottom: 1px;
+  }
+ .location, .tagline {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .title{
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+  .location{
+    font-size: 20px;
   }
   .name, .title, .location, .tagline, .social-links, .resume-btn, .cta-section {
     text-align: left;
     align-self: flex-start;
     width: 100%;
-  }
-  .name {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-  .title, .location, .tagline {
-    font-size: 13px;
-    margin-bottom: 8px;
   }
   .cta-title {
     font-size: 18px;
@@ -421,15 +429,23 @@ img {
   }
   .section-title {
     font-size: 22px;
+    padding: 1px 18px;
+    margin-bottom: 2px;
   }
   .about-text {
     font-size: 14px;
+    padding: 1px 18px;
+    margin-bottom: 2px;
   }
   .skills-category h3 {
     font-size: 16px;
+    padding: 1px 18px;
+    margin-bottom: 2px;
   }
   .skills-tags {
     gap: 6px;
+    padding: 1px 18px;
+    margin-bottom: 2px;
   }
   .skill-tag {
     font-size: 11px;
@@ -437,11 +453,17 @@ img {
   }
   .experience-header, .education-header {
     align-items: flex-start;
+    padding: 1px 18px;
+    margin-bottom: 2px;
+  }
+  .job-responsibilities{
+    padding: 1px 18px;
+    margin-bottom: 2px;
   }
   .project-image {
-    align-self: flex-start;
-    margin-right: 16px;
-    margin-left: 0;
+    width: 130px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
   .resume-btn {
     width: auto;
@@ -451,6 +473,17 @@ img {
     font-size: 14px;
     margin-left: 0;
   }
-  
+  .education-item{
+    margin-bottom: 0%;
+  }
+  .project-item{
+    padding: 1px 18px;
+    margin-bottom: 2px;
+  }
+  .project-images{
+    font-size: 14px;
+    padding: 1px 18px;
+    margin-bottom: 2px;
+  }
   
 }

@@ -4,11 +4,6 @@ const Projects = () => {
   return (
                 <div class="section">
                     <h2 class="section-title">Projects</h2>
-                    
-                    {/* <div class="projects-tabs">
-                        <button class="tab-btn active" data-tab="personal">Personal Projects</button>
-                        <button class="tab-btn" data-tab="client">Client Projects</button>
-                    </div> */}
 
                     <div class="projects-content" id="personal-projects">
                         
